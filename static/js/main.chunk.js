@@ -40,7 +40,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   componentDidMount() {
-    return fetch('http://localhost/_docdesk/wordpress/wp-json/wp/v2/posts/').then(response => response.json()).then(responseJson => {
+    return fetch('http://localhost/_docdesk/wordpress/wp-json/wp/v2/posts/?_embed').then(response => response.json()).then(responseJson => {
       this.setState({
         data: responseJson
       });
@@ -76,23 +76,30 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 29,
         columnNumber: 21
       }
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-      className: "App-title",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30,
-        columnNumber: 21
-      }
-    }, this.state.data.map((item, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }), this.state.data.map((item, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       key: i,
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 31,
-        columnNumber: 59
+        columnNumber: 21
       }
-    }, item.title.rendered)))));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 25
+      }
+    }, item.title.rendered), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: item._embedded['wp:featuredmedia'][0].media_details.sizes.full.source_url,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 25
+      }
+    })))));
   }
 
 }

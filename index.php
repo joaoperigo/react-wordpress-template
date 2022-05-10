@@ -39,7 +39,7 @@
         Learn how to configure a non-root public URL by running `npm run wpbuild`.
     -->
     <title><?php bloginfo('name'); ?>  <?php wp_title(); ?></title>
-<link href="/_docdesk/wordpress/wp-content/themes/react_theme/static/css/main.chunk.css?a98d67a11719354dc4f0" rel="stylesheet"></head>
+<link href="/_docdesk/wordpress/wp-content/themes/react_theme/static/css/main.chunk.css?0d87129e5b5f75c40346" rel="stylesheet"></head>
     <body>
     <noscript>
         You need to enable JavaScript to run this app.
@@ -55,5 +55,5 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/_docdesk/wordpress/wp-content/themes/react_theme/static/js/bundle.js?a98d67a11719354dc4f0"></script><script src="/_docdesk/wordpress/wp-content/themes/react_theme/static/js/1.chunk.js?a98d67a11719354dc4f0"></script><script src="/_docdesk/wordpress/wp-content/themes/react_theme/static/js/main.chunk.js?a98d67a11719354dc4f0"></script></body>
+    <script src="/_docdesk/wordpress/wp-content/themes/react_theme/static/js/bundle.js?0d87129e5b5f75c40346"></script><script src="/_docdesk/wordpress/wp-content/themes/react_theme/static/js/1.chunk.js?0d87129e5b5f75c40346"></script><script src="/_docdesk/wordpress/wp-content/themes/react_theme/static/js/main.chunk.js?0d87129e5b5f75c40346"></script></body>
 </html>
