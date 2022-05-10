@@ -1,0 +1,20 @@
+{
+  "files": {
+    "static/js/1.chunk.js": "/_docdesk/wordpress/wp-content/themes/react_theme/static/js/1.chunk.js",
+    "static/js/1.chunk.js.map": "/_docdesk/wordpress/wp-content/themes/react_theme/static/js/1.chunk.js.map",
+    "main.css": "/_docdesk/wordpress/wp-content/themes/react_theme/static/css/main.chunk.css",
+    "main.js": "/_docdesk/wordpress/wp-content/themes/react_theme/static/js/main.chunk.js",
+    "main.css.map": "/_docdesk/wordpress/wp-content/themes/react_theme/static/css/main.chunk.css.map",
+    "main.js.map": "/_docdesk/wordpress/wp-content/themes/react_theme/static/js/main.chunk.js.map",
+    "runtime-main.js": "/_docdesk/wordpress/wp-content/themes/react_theme/static/js/bundle.js",
+    "runtime-main.js.map": "/_docdesk/wordpress/wp-content/themes/react_theme/static/js/bundle.js.map",
+    "index.php": "/_docdesk/wordpress/wp-content/themes/react_theme/index.php",
+    "static/media/logo.svg": "/_docdesk/wordpress/wp-content/themes/react_theme/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/js/1.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}
